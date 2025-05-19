@@ -4,7 +4,7 @@ module.exports = (app) => {
   app.use(
     "/api/v1",
     createProxyMiddleware({
-      target: "http://localhost:8080",
+      target: "https://expense-management-system-backend-81rg.onrender.com",
       changeOrigin: true,
     })
   );
