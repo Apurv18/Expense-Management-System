@@ -46,7 +46,7 @@ const Login = () => {
   };
 
   const handleClickLoginWithGoogle = async () => {
-    window.open(`${BASE_URL}/auth/google`, "_self");
+    window.open("https://expense-management-system-backend-81rg.onrender.com/auth/google", "_self");
   };
 
   //prevent for loggedin user
